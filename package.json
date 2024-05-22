@@ -1,7 +1,6 @@
 {
   "name": "Food",
   "version": "0.1.0",
-  "homepage": "https://SwapnithKumar.github.io/food-delivery",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -22,10 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm start",
+    "build": "npm run build",
     "test": "jest",
     "eject": "react-scripts eject"
   },
@@ -50,6 +47,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
+    "@babel/plugin-proposal-private-property-in-object": "^1.0.3",
     "babel-jest": "^29.7.0",
     "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.3"
